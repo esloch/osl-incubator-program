@@ -11,66 +11,51 @@ ecosystem standards and potential progression into programs such as:
 - pyOpenSci
 - rOpenSci
 
-## What lives in this repository
+## Purpose
 
-This repository is the source of truth for the OSL Incubator process,
-stage definitions, review criteria, and project templates.
+This repository is the source of truth for the incubator program:
 
-### Root documents
+- stage definitions
+- review criteria
+- application and evaluation flow
+- contributor and reviewer guidance
+- reusable templates
 
-- `README.md`: program overview and entry point
-- `LICENSE`: repository license
-- `CONTRIBUTING.md`: contribution rules for this repo
+## Quick start
 
-### `docs/overview/`
+1. Read [docs/overview/vision.md](docs/overview/vision.md).
+2. Read [docs/overview/lifecycle.md](docs/overview/lifecycle.md).
+3. Use the checklist for the stage you are targeting.
+4. Open an issue with the matching application template.
 
-- `vision.md`: why the incubator exists
-- `lifecycle.md`: stage model and progression rules
+## Repository layout
 
-### `docs/stages/`
-
-- `poc.md`: expectations for proof-of-concept projects
-- `incubation.md`: expectations for projects in incubation
-- `graduation.md`: expectations for projects ready to graduate
-
-### `docs/criteria/`
-
-- `poc-checklist.md`: required and recommended POC criteria
-- `incubation-checklist.md`: incubation requirements and signals
-- `graduation-checklist.md`: graduation requirements and readiness signals
-
-### `docs/applications/`
-
-- `application-process.md`: how projects apply
-- `evaluation-process.md`: how reviews are handled
-
-### `docs/guides/`
-
-- `mentors.md`: mentor responsibilities
-- `reviewers.md`: reviewer responsibilities
-- `maintainers.md`: maintainer responsibilities
-
-### `docs/templates/`
-
-- `project-template.md`: standard project profile template
-- `governance-template.md`: governance baseline
-- `security-policy-template.md`: security policy baseline
-
-### `.github/`
-
-- issue templates for POC, incubation, graduation, and promotion requests
-- pull request template for repository changes
+| Path | Purpose |
+| --- | --- |
+| `README.md` | Program entry point and repository guide |
+| `LICENSE` | Repository license |
+| `CONTRIBUTING.md` | Contribution rules for this repository |
+| `docs/overview/` | Vision and lifecycle documentation |
+| `docs/stages/` | Stage descriptions for POC, incubation, and graduation |
+| `docs/criteria/` | Checklists used during evaluation |
+| `docs/applications/` | Application and review process docs |
+| `docs/guides/` | Guidance for mentors, reviewers, and maintainers |
+| `docs/templates/` | Baseline templates for projects, governance, and security |
+| `.github/` | Issue and pull request templates |
 
 ## Lifecycle
 
-OSL uses a three-stage model:
+The incubator uses a three-stage model:
 
-1. POC
-2. Incubation
-3. Graduation
+1. [POC](docs/stages/poc.md)
+2. [Incubation](docs/stages/incubation.md)
+3. [Graduation](docs/stages/graduation.md)
+
+Each stage has a matching checklist in `docs/criteria/` and a
+corresponding application flow where appropriate.
 
 See [docs/overview/lifecycle.md](docs/overview/lifecycle.md) for the
-stage definitions and alignment notes.
+canonical lifecycle description.
 
 ## Apply
 
@@ -80,6 +65,16 @@ Open an issue using one of the templates:
 - [Incubation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-incubation.md)
 - [Graduation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-graduation.md)
 
+Promotion requests use:
+
+- [Promote stage](https://github.com/esloch/osl-incubator-program/issues/new?template=promote-stage.md)
+
 The application and evaluation process is documented in
 [docs/applications/application-process.md](docs/applications/application-process.md)
 and [docs/applications/evaluation-process.md](docs/applications/evaluation-process.md).
+
+## Working with this repo
+
+- Use concise, checklist-driven changes.
+- Update the stage docs when criteria change.
+- Keep the README as the top-level entry point, not a second copy of the lifecycle doc.

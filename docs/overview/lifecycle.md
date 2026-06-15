@@ -1,7 +1,7 @@
 # Lifecycle
 
-OSL uses a three-stage model that gives projects a clear path from
-initial validation to sustained maintenance.
+This document is the canonical description of the OSL stage model.
+Use it alongside the stage-specific pages and checklists under `docs/`.
 
 ## POC
 
@@ -13,11 +13,10 @@ Focus:
 - clarity
 - basic OSS hygiene
 
-Entry expectations:
+See:
 
-- the project can be understood quickly
-- there is a working demo or equivalent proof
-- the repository is public and has a license
+- [Stage description](docs/stages/poc.md)
+- [POC checklist](docs/criteria/poc-checklist.md)
 
 ## Incubation
 
@@ -31,12 +30,10 @@ Focus:
 - community
 - maintainability
 
-Entry expectations:
+See:
 
-- the POC checklist is substantially met
-- install and usage instructions are clear
-- automated tests and CI are in place
-- review and contribution workflows are defined
+- [Stage description](docs/stages/incubation.md)
+- [Incubation checklist](docs/criteria/incubation-checklist.md)
 
 ## Graduation
 
@@ -50,12 +47,10 @@ Focus:
 - ecosystem readiness
 - security posture
 
-Entry expectations:
+See:
 
-- the project has a stable release history
-- contributors and maintainers are active
-- governance and security practices are documented
-- the project can operate with predictable maintenance
+- [Stage description](docs/stages/graduation.md)
+- [Graduation checklist](docs/criteria/graduation-checklist.md)
 
 ---
 
@@ -68,12 +63,3 @@ https://github.com/cncf/toc/blob/main/process/README.md
 OSL does not replicate CNCF. The intent is to prepare projects for that
 kind of review, governance, and operating model without requiring the
 same process at the incubator level.
-
-## Apply
-
-Use the matching issue template when your project is ready to enter or
-advance in the lifecycle:
-
-- [POC application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-poc.md)
-- [Incubation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-incubation.md)
-- [Graduation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-graduation.md)
