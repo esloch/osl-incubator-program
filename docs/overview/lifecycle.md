@@ -68,3 +68,12 @@ https://github.com/cncf/toc/blob/main/process/README.md
 OSL does not replicate CNCF. The intent is to prepare projects for that
 kind of review, governance, and operating model without requiring the
 same process at the incubator level.
+
+## Apply
+
+Use the matching issue template when your project is ready to enter or
+advance in the lifecycle:
+
+- [POC application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-poc.md)
+- [Incubation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-incubation.md)
+- [Graduation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-graduation.md)

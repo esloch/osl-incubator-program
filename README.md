@@ -72,13 +72,13 @@ OSL uses a three-stage model:
 See [docs/overview/lifecycle.md](docs/overview/lifecycle.md) for the
 stage definitions and alignment notes.
 
-## How to apply
+## Apply
 
 Open an issue using one of the templates:
 
-- POC application
-- Incubation application
-- Graduation application
+- [POC application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-poc.md)
+- [Incubation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-incubation.md)
+- [Graduation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-graduation.md)
 
 The application and evaluation process is documented in
 [docs/applications/application-process.md](docs/applications/application-process.md)
