@@ -1,65 +1,71 @@
 # Lifecycle
 
-This document is the canonical description of the OSL stage model.
-Use it alongside the stage-specific pages and checklists under `docs/`.
+## Purpose
 
-## POC
+This is the canonical description of the OSL stage model.
 
-POC is the entry stage for early projects.
+## Scope
 
-Focus:
+Use this page alongside the stage pages and checklists under `docs/`.
+It defines the active stages and how they map to the program language.
 
-- usability
-- clarity
-- basic OSS hygiene
+## Stage model
 
-See:
+### POC
 
-- [Stage description](docs/stages/poc.md)
-- [POC checklist](docs/criteria/poc-checklist.md)
+POC is the sandbox or experimental stage.
 
-## Incubation
-
-Incubation is for projects that have moved past initial validation and
-need stronger structure.
-
-Focus:
-
-- quality
-- governance
-- community
-- maintainability
+Use it when a project has a working idea or prototype and needs basic
+open source hygiene before deeper review.
 
 See:
 
-- [Stage description](docs/stages/incubation.md)
-- [Incubation checklist](docs/criteria/incubation-checklist.md)
+- [Stage description](../stages/poc.md)
+- [POC checklist](../criteria/poc-checklist.md)
 
-## Graduation
+### Incubation
 
-Graduation is for projects that show long-term sustainability and are
-ready for broad external use.
+Incubation is the stabilization phase.
 
-Focus:
-
-- sustainability
-- adoption
-- ecosystem readiness
-- security posture
+Use it when a project needs stronger documentation, governance,
+repeatability, and reviewable maintenance practices.
 
 See:
 
-- [Stage description](docs/stages/graduation.md)
-- [Graduation checklist](docs/criteria/graduation-checklist.md)
+- [Stage description](../stages/incubation.md)
+- [Incubation checklist](../criteria/incubation-checklist.md)
 
----
+### Graduation
 
-## CNCF alignment
+Graduation is the adoption and maturity stage.
 
-Projects aiming to move toward CNCF should align with:
+Use it when a project has stable maintenance, visible adoption, and a
+multi-contributor operating model.
 
-https://github.com/cncf/toc/blob/main/process/README.md
+See:
 
-OSL does not replicate CNCF. The intent is to prepare projects for that
-kind of review, governance, and operating model without requiring the
-same process at the incubator level.
+- [Stage description](../stages/graduation.md)
+- [Graduation checklist](../criteria/graduation-checklist.md)
+
+## Optional future stage
+
+Archive may be added later for inactive projects.
+
+It is not part of the current operating model and should not be used as
+an approval path today.
+
+## Alignment
+
+OSL is baseline-only.
+
+Projects may also look to ecosystem-specific guidance:
+
+- CNCF-style expectations for reproducibility, security, observability,
+  and deployment clarity
+- pyOpenSci-style validation for Python packaging, documentation, and
+  testing
+- rOpenSci-style validation for R documentation and release readiness
+
+Reference only:
+
+- https://github.com/cncf/toc/blob/main/process/README.md
