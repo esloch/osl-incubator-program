@@ -1,0 +1,28 @@
+site_name: OSL Incubator
+site_description: Open Science Labs Incubator Program
+site_url: https://osl-incubator.github.io
+
+repo_name: osl-incubation
+repo_url: https://github.com/esloch/osl-incubator-program
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Lifecycle: lifecycle.md
+  - How to Apply: apply.md
+  - Criteria: criteria.md
+  - Ecosystems: ecosystems.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+plugins:
+  - search
