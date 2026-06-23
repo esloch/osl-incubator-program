@@ -1,15 +1,30 @@
 # POC Stage
 
-POC is the entry stage for projects that are early, visible, and ready
-for basic review.
+## Purpose
+
+POC is the sandbox or experimental stage for projects that are early,
+visible, and ready for basic review.
+
+## Scope
+
+Use POC when the project needs to prove that the idea works and that the
+repository has the minimum structure needed for open source review.
 
 ## Focus
 
-- basic usability
 - clear purpose
+- basic usability
 - minimal OSS hygiene
+- a working demo or equivalent evidence
 
-## Typical outcome
+## What reviewers look for
 
-A project should be understandable and demonstrable before moving to
+- the project can be understood quickly
+- the repository is public and licensed
+- the README explains the idea and basic usage
+- the project has a contribution path
+
+## Exit expectation
+
+The project should be understandable and demonstrable before moving to
 incubation.

@@ -1,16 +1,33 @@
 # Graduation Stage
 
-Graduation is the stage for projects that show sustained maintenance and
-ecosystem readiness.
+## Purpose
+
+Graduation is the adoption and maturity stage for projects that show
+sustained maintenance and visible use.
+
+## Scope
+
+Use graduation when the project has a stable operating model, clear
+ownership, and evidence that other people rely on it.
 
 ## Focus
 
-- sustainability
-- adoption
-- documentation quality
-- governance maturity
+- maintainability
+- adoption signals
+- mature documentation
+- clear ownership
+- multi-contributor operation
+- basic security and release clarity
 
-## Typical outcome
+## What reviewers look for
 
-A project should be ready to stand on its own with predictable
+- regular maintenance activity
+- more than one contributor or maintainer path
+- documentation that supports users and contributors
+- a release history or equivalent change record
+- known risks are tracked and understood
+
+## Exit expectation
+
+The project should be ready to stand on its own with predictable
 maintenance and clear ownership.

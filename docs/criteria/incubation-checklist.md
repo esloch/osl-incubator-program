@@ -1,31 +1,42 @@
 # Incubation Checklist
 
+## Purpose
+
+Use this checklist to confirm a project is ready for the stabilization
+phase.
+
+## Scope
+
+This stage checks that the project can be maintained, reviewed, and
+released in a repeatable way.
+
 ## Required
 
-- [ ] All POC requirements met
-- [ ] Clear install + usage docs
-- [ ] CI pipeline
-- [ ] Automated tests
-- [ ] Public releases (tagged)
-- [ ] Governance document
-- [ ] Issue + PR workflow
-- [ ] At least 1 reviewer (not only maintainer)
+- [ ] All POC requirements are met
+- [ ] Install and usage docs are clear
+- [ ] CI runs on the repository
+- [ ] Automated tests exist for important paths
+- [ ] Public releases are tagged or otherwise recorded
+- [ ] Governance document exists
+- [ ] Issue and pull request workflow exists
+- [ ] At least one reviewer is not also the only maintainer
 
-## Quality
+## Quality signals
 
-- [ ] Modular architecture
-- [ ] Reproducible setup (Docker/script)
-- [ ] Versioning strategy
+- [ ] Setup is reproducible with a script or container
+- [ ] Versioning strategy is documented
+- [ ] Architecture is understandable enough for contributors
 
-## Community
+## Community signals
 
-- [ ] External contributions signal
-- [ ] Issues being answered
+- [ ] External contributions are visible
+- [ ] Issues receive responses
+- [ ] Review feedback is being applied
 
----
+## Ecosystem note
 
-## Ecosystem alignment
+Use the relevant ecosystem guidance for deeper validation:
 
-- Python -> pyOpenSci (if applicable)
-- R -> rOpenSci
-- Infra -> CNCF / OpenSSF practices
+- [Python guidance](../ecosystems/python.md)
+- [R guidance](../ecosystems/r.md)
+- [DevOps guidance](../ecosystems/devops.md)
