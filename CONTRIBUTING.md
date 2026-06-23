@@ -8,12 +8,15 @@ This repository tracks the OSL Incubator program structure and templates.
 2. Use the existing markdown structure when adding or updating docs.
 3. Keep changes small and focused.
 4. Update related templates or checklists when process changes.
+5. Keep the workflow aligned with [docs/workflows/global-workflow.md](docs/workflows/global-workflow.md).
 
 ## Expectations
 
 - Keep documentation clear and actionable.
 - Prefer checklist-based process changes over narrative-only changes.
 - Preserve the existing repository structure unless a structural change is required.
+- Avoid adding ecosystem policy details that belong in pyOpenSci,
+  rOpenSci, or CNCF documentation.
 
 ## Review
 

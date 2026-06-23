@@ -6,8 +6,9 @@ about: Submit a project to OSL POC stage
 ## Project
 
 - Name:
-- Repo:
+- Repository:
 - License:
+- Target ecosystem, if any:
 
 ## Description
 
@@ -16,13 +17,20 @@ about: Submit a project to OSL POC stage
 ## Current status
 
 - [ ] Demo available
-- [ ] README
-- [ ] Contributing guide
+- [ ] README explains the project
+- [ ] CONTRIBUTING.md exists
+- [ ] Code of Conduct exists
 
 ## Checklist
 
-- [ ] Public repo
-- [ ] OSI license
-- [ ] Code of Conduct
+- [ ] Public repository
+- [ ] OSI-approved license
+- [ ] Basic OSS hygiene is visible
 
 ## What do you need from OSL?
+
+## Evidence links
+
+- README:
+- Demo:
+- Tests:

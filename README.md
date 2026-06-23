@@ -1,61 +1,56 @@
 # OSL Incubator
 
-The OSL Incubator helps open source projects move from early-stage
-proof of concept to sustainable, production-ready projects.
+OSL Incubator is a lightweight program for moving open source projects
+from an experimental starting point to a stable, maintainable, and
+adoptable project.
 
-It is a **pre-incubation layer** designed to prepare projects for
-ecosystem standards and potential progression into programs such as:
-
-- CNCF
-- Apache
-- pyOpenSci
-- rOpenSci
+It is a pre-incubation layer that prepares projects for external
+ecosystem expectations without copying those ecosystems' rules into this
+repository.
 
 ## Purpose
 
-This repository is the source of truth for the incubator program:
+This repository is the source of truth for:
 
 - stage definitions
-- review criteria
-- application and evaluation flow
-- contributor and reviewer guidance
-- reusable templates
+- checklist-based review criteria
+- the application and promotion workflow
+- role definitions for authors, reviewers, and editors
+- ecosystem guidance for Python, R, and DevOps projects
+- reusable templates and issue forms
 
-## Quick start
+## Start here
 
 1. Read [docs/overview/vision.md](docs/overview/vision.md).
 2. Read [docs/overview/lifecycle.md](docs/overview/lifecycle.md).
-3. Use the checklist for the stage you are targeting.
-4. Open an issue with the matching application template.
+3. Read [docs/workflows/global-workflow.md](docs/workflows/global-workflow.md).
+4. Pick the checklist for your target stage in `docs/criteria/`.
+5. Open the matching issue template from `.github/ISSUE_TEMPLATE/`.
 
-## Repository layout
+## Canonical model
 
-| Path | Purpose |
-| --- | --- |
-| `README.md` | Program entry point and repository guide |
-| `LICENSE` | Repository license |
-| `CONTRIBUTING.md` | Contribution rules for this repository |
-| `docs/overview/` | Vision and lifecycle documentation |
-| `docs/stages/` | Stage descriptions for POC, incubation, and graduation |
-| `docs/criteria/` | Checklists used during evaluation |
-| `docs/applications/` | Application and review process docs |
-| `docs/guides/` | Guidance for mentors, reviewers, and maintainers |
-| `docs/templates/` | Baseline templates for projects, governance, and security |
-| `.github/` | Issue and pull request templates |
+The program uses three active stages:
 
-## Lifecycle
+1. [POC](docs/stages/poc.md) - sandbox / experimental
+2. [Incubation](docs/stages/incubation.md) - stabilization
+3. [Graduation](docs/stages/graduation.md) - adoption and maturity
 
-The incubator uses a three-stage model:
+An archive path may be added later for inactive projects, but it is not
+an active stage today.
 
-1. [POC](docs/stages/poc.md)
-2. [Incubation](docs/stages/incubation.md)
-3. [Graduation](docs/stages/graduation.md)
+## Roles
 
-Each stage has a matching checklist in `docs/criteria/` and a
-corresponding application flow where appropriate.
+- [Authors](docs/guides/authors.md) build the project and respond to feedback.
+- [Reviewers](docs/guides/reviewers.md) validate evidence against the checklist.
+- [Editors](docs/guides/editors.md) maintain criteria and approve transitions.
 
-See [docs/overview/lifecycle.md](docs/overview/lifecycle.md) for the
-canonical lifecycle description.
+## Ecosystems
+
+OSL defines the baseline. External ecosystems define deeper validation.
+
+- [Python guidance](docs/ecosystems/python.md)
+- [R guidance](docs/ecosystems/r.md)
+- [DevOps / Infra guidance](docs/ecosystems/devops.md)
 
 ## Apply
 
@@ -64,17 +59,26 @@ Open an issue using one of the templates:
 - [POC application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-poc.md)
 - [Incubation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-incubation.md)
 - [Graduation application](https://github.com/esloch/osl-incubator-program/issues/new?template=apply-graduation.md)
-
-Promotion requests use:
-
 - [Promote stage](https://github.com/esloch/osl-incubator-program/issues/new?template=promote-stage.md)
 
-The application and evaluation process is documented in
-[docs/applications/application-process.md](docs/applications/application-process.md)
-and [docs/applications/evaluation-process.md](docs/applications/evaluation-process.md).
+## Repository layout
 
-## Working with this repo
+| Path | Purpose |
+| --- | --- |
+| `README.md` | Program entry point and navigation |
+| `CONTRIBUTING.md` | Repository contribution rules |
+| `docs/overview/` | Vision, lifecycle, and website mapping |
+| `docs/workflows/` | Canonical application and due-diligence flow |
+| `docs/stages/` | Stage definitions |
+| `docs/criteria/` | Stage checklists |
+| `docs/guides/` | Role-based guidance |
+| `docs/ecosystems/` | Ecosystem-specific guidance |
+| `docs/templates/` | Baseline templates |
+| `.github/ISSUE_TEMPLATE/` | Application and promotion issue forms |
 
-- Use concise, checklist-driven changes.
-- Update the stage docs when criteria change.
-- Keep the README as the top-level entry point, not a second copy of the lifecycle doc.
+## Working in this repo
+
+- Keep changes checklist-driven and easy to review.
+- Update the linked stage, workflow, and criteria docs together.
+- Do not add policy that is not already supported by the repo or the
+  referenced ecosystem guidance.

@@ -6,4 +6,8 @@
 
 ## Validation
 
+## Documentation impact
+
+## Notes
+
 ## Notes

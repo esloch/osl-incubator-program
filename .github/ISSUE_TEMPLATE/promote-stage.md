@@ -5,20 +5,28 @@ about: Request promotion between OSL stages
 
 ## Current stage
 
-POC / Incubation
+- POC
+- Incubation
 
 ## Target stage
 
-Incubation / Graduation
+- Incubation
+- Graduation
 
 ## Checklist
 
-(link checklist here)
+- Link the relevant checklist here.
 
 ## Evidence
 
 - releases
 - contributors
 - activity
+- docs
+- tests
 
 ## Risks
+
+## Due diligence notes
+
+## Decision requested
