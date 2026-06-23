@@ -1,11 +1,15 @@
 # Maintainers
 
-Maintainers own the project repository, respond to issues, and keep the
-project moving toward the next stage.
+## Purpose
 
-## Responsibilities
+This page is kept for backward compatibility.
 
-- keep documentation current
-- manage releases
-- triage issues and pull requests
-- coordinate mentors and reviewers
+## Scope
+
+In the current program model, program-maintainer responsibilities are
+covered by [Editors](editors.md).
+
+## Current rule
+
+Use the editor role for program-level maintenance, criteria updates, and
+stage decisions.
